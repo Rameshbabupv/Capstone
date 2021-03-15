@@ -1,0 +1,328 @@
+,subreddit,title,selftext,id,created_utc,full_link
+0,MachineLearning,[D] Classification with time dependent data,"Hello,
+
+I have a time series data along with a few other features and I’m trying to make classification. My response is one of four string choices. 
+
+I’ve used xgboost classifier and random forest classifier but both models have a hard time with the cyclical nature of the time series. For example, response values reverse order every 14 days. Is my best best featuring this in as a flag? I’m curious to see if there is a classifier out there that can help with cyclical/time series datasets. Thanks!",lwhq67,1614734479,https://www.reddit.com/r/MachineLearning/comments/lwhq67/d_classification_with_time_dependent_data/
+1,MachineLearning,“D” Classification with Time Series,[removed],lwhp4a,1614734383,https://www.reddit.com/r/MachineLearning/comments/lwhp4a/d_classification_with_time_series/
+2,MachineLearning,AI and Machine Learning Project Survey [R],[removed],lwgow7,1614731209,https://www.reddit.com/r/MachineLearning/comments/lwgow7/ai_and_machine_learning_project_survey_r/
+3,MachineLearning,Classification with Time Series,[removed],lwgmao,1614730979,https://www.reddit.com/r/MachineLearning/comments/lwgmao/classification_with_time_series/
+4,MachineLearning,[R] [N] Conference for Truth and Trust Online Calls for Paper and Talk Proposal Submissions,"Are you working on fact-checking, detection of misinformation, hate speech or other problems related to trust and truth online? You can now **submit a paper or talk proposal to the Truth and Trust Online 2021 (TTO 2021).** [**https://truthandtrustonline.com/call-for-papers-2/**](https://truthandtrustonline.com/call-for-papers-2/)
+
+The annual **Conference for Truth and Trust Online** is organised as **a unique collaboration between practitioners, technologists, academics and platforms**, to share, discuss, and collaborate on useful technical innovations and research in the space. This year’s **TTO is virtual and will take place online Oct 7-8 2021.**
+
+We welcome technical papers of the following types: surveys, methods, reproduction papers, resource papers, case studies.
+
+**Topics of interest include:**
+
+* Misinformation and disinformation
+* Trustworthiness of COVID-19 news and guidance
+* Hate speech
+* Online harassment and cyberbullying
+* Credibility and fake reviews
+* Hyper-partisanship and bias
+* Image/video/audio verification
+* Fake amplification, polarization, and echo chambers
+* Transparency in content and source moderation
+* Privacy and anonymity requirements
+
+We encourage wide participation from all interested parties and stakeholders on online media, including academics, startups and large industry, non-profit organizations and governmental institutions.
+
+**Technical paper submission deadline: July 30, 2021**
+
+**Talk proposal submission deadline: August 13, 2021**
+
+More details can be found: [https://truthandtrustonline.com/call-for-papers-2/](https://truthandtrustonline.com/call-for-papers-2/)
+
+https://preview.redd.it/bm8yvbdubpk61.jpg?width=1920&amp;format=pjpg&amp;auto=webp&amp;s=bc3f4681ac46aed6892b5ab5b3f5c1d73df62ba8",lwfv51,1614728672,https://www.reddit.com/r/MachineLearning/comments/lwfv51/r_n_conference_for_truth_and_trust_online_calls/
+5,MachineLearning,Conference for Truth and Trust Online Calls for Paper and Talk Proposal Submissions,[removed],lwfrtd,1614728387,https://www.reddit.com/r/MachineLearning/comments/lwfrtd/conference_for_truth_and_trust_online_calls_for/
+6,MachineLearning,[D] Probabilistic models using continuous and categorical variables (dummies)?,"Hi, I'm new to data science and machine learning (recently started studying it). In my studies, I came up with the idea of a specific project. The aim of this project is to get the probability of an event occurs (a goal in a soccer match, because I like soccer and that could be an incentive to learn faster), given certain circumstances. 
+
+Basically I want to know the probability of a goal occurs if: it's raining, the elapsed time of the match and if the team with the ball is losing the match. As you can see, I have continuous and categorical independent variables. I know that, for continuous variable, I could just make a linear regression. But my aim is to get all of this variables into the same model. 
+
+My doubts: what are the best models or theories I could use, which the output is a probability prediction? What models can be fitted with those different types of data?
+
+(I've already studied about logistic regression, but in that case the output is a prediction whether there is or there isn't a goal, and what I want is the probability of that goal occurring in each scenario. I thought about putting this logistic regression prediction into a Monte Carlo simulation, but I don't know if it's feasible or even if the prediction will change after each simulation. I don't know if this simulation would answer my questions either).
+
+Right now, I'm not even trying to perform any model. Just trying to know how can I do it, to start studying it. Any help is appreciated. Thank you.",lwfor3,1614728121,https://www.reddit.com/r/MachineLearning/comments/lwfor3/d_probabilistic_models_using_continuous_and/
+7,MachineLearning,Probabilistic models using continuous and categorical variables (dummies)?,[removed],lwfnmo,1614728027,https://www.reddit.com/r/MachineLearning/comments/lwfnmo/probabilistic_models_using_continuous_and/
+8,MachineLearning,AI and Machine Learning Project Survey,[removed],lwfmta,1614727959,https://www.reddit.com/r/MachineLearning/comments/lwfmta/ai_and_machine_learning_project_survey/
+9,MachineLearning,[P] My attempt at generating Minecraft Structures with a convolutional 3D voxel GAN. And a call for advice/ideas.,"Last year I attempted a personal project to train a convolutional 3D voxel GAN to generate 3D minecraft buildings. I got it working, but I wasn’t very happy with the results. I documented the process in-depth on my github: https://github.com/BluShine/Minecraft-GAN-City-Generator. 
+
+I’m planning to revisit the project, and was hoping to get some ideas or advice. My main goal is simply to improve the visual quality of the generated structures. I don’t expect the result to look perfect or human-crafted, but I do want something that looks *interesting*. 
+As a secondary goal, I want to be able to generate large, continuous structures, and even “infill” or “continue” an existing structure, maybe using a RNN, LSTM, or Transformer model. 
+
+One of my main frustrations is that player-scaled Minecraft structures rely on small, “single-voxel” detail. The “blurry” and “noisy” ML techniques traditionally used for images and voxels don’t seem to work very effectively for this problem. What I want is probably closer to “pixel art”. One of the most compelling results that I’ve seen in 2D is this project: https://matthewrayfield.com/articles/ai-generated-pokemon-sprites-with-gpt-2/. That’s part of why I’m interested in using an RNN or Transformer model.",lwfl1s,1614727817,https://www.reddit.com/r/MachineLearning/comments/lwfl1s/p_my_attempt_at_generating_minecraft_structures/
+10,MachineLearning,How much should a PhD in Computer vision expect to make upon graduation? [D],"How much should a freshly minted PhD with publications in top conference journals CVPR, ICCV, or Neurips say between 1-3 expect to make in South and midwest upon graduating.   
+
+
+Say the publications have some impact but not ground breaking works. They have a relatively well known advisor but not the Bengio's of the community.   
+
+
+Looking for estimates on base and bonus not equity or RSU. Although these would be welcome also.",lwf9ot,1614726878,https://www.reddit.com/r/MachineLearning/comments/lwf9ot/how_much_should_a_phd_in_computer_vision_expect/
+11,MachineLearning,Real,,lwetnt,1614725608,https://www.reddit.com/r/MachineLearning/comments/lwetnt/real/
+12,MachineLearning,[P] Anyone interested in getting paid to write tutorials or short courses?,"Hello,
+
+I just built my website for short courses and tutorials, and I’d like to populate it with some content. I’m looking for developers who are also good at writing who would be interested in writing some tutorials and publishing them on my website.
+
+This is an example of something I built on my website: [https://www.learnthepart.com/course/c1d6d596-97b9-4e53-a46d-ec6260c07c78/bcdfb9cb-44e7-4eaf-a824-13e853eb974c](https://www.learnthepart.com/course/c1d6d596-97b9-4e53-a46d-ec6260c07c78/bcdfb9cb-44e7-4eaf-a824-13e853eb974c)
+
+If any of you are interested feel free to DM me. 
+
+If available, please send me a programming article you wrote in the past. It would be really helpful in assessing your skillset. 
+
+This is also a good chance to learn and develop some skills while getting paid for it.",lwervl,1614725469,https://www.reddit.com/r/MachineLearning/comments/lwervl/p_anyone_interested_in_getting_paid_to_write/
+13,MachineLearning,Anyone interested in getting paid to write tutorials or short courses?,[removed],lwer5o,1614725410,https://www.reddit.com/r/MachineLearning/comments/lwer5o/anyone_interested_in_getting_paid_to_write/
+14,MachineLearning,[Discussion],Hey iam new to machine learning and iam bit confused from where to start iam a python developer done my bachelor's in computer science.,lwei8x,1614724693,https://www.reddit.com/r/MachineLearning/comments/lwei8x/discussion/
+15,MachineLearning,(Discussion),[removed],lwef3z,1614724445,https://www.reddit.com/r/MachineLearning/comments/lwef3z/discussion/
+16,MachineLearning,Machine Learning,[removed],lwecib,1614724241,https://www.reddit.com/r/MachineLearning/comments/lwecib/machine_learning/
+17,MachineLearning,Can physiological signals be used for continuous implicit authentication?,[removed],lweb3v,1614724137,https://www.reddit.com/r/MachineLearning/comments/lweb3v/can_physiological_signals_be_used_for_continuous/
+18,MachineLearning,[D] What is this approach called?,"I would be really surprised if I'm the first person to come up with this idea; I expect it's already a thing, with a known name and all.
+
+|
+
+You have a neural-net A, of arbitrary architecture; then you have neural-bet B, with an independently arbitrary architecture (may be the same or different from A); and a score/fitness algorithm C, that may be an adversarial network or any other algorithm that will return a numerical rating of how well A is performing at a given task. The inputs for B, are the current inputs of A, and additionally, all the current weights of A, and the current score A gets; and the outputs of B are deltas (or new absolute values) for the weights of A; and B is trained to produce new weights for A that will improve A's scores the most for various input values.
+
+So in other words, instead of using backpropagation or some other hard-coded calculation, neural net A is optimized via the outputs of neural net B.
+
+&amp;#x200B;
+
+
+And optionally (if you got the processing power/storage/time for it), A and B may be packed into a new black-boxed A, with a new B driving the weights of the immediately lower level's B, recursively; with each outer B being scored either by the score improvement of the immediately lower level's B, or by the score improvement of the deepest A.",lwdw75,1614722979,https://www.reddit.com/r/MachineLearning/comments/lwdw75/d_what_is_this_approach_called/
+19,MachineLearning,What is this approach called?,[removed],lwduy4,1614722881,https://www.reddit.com/r/MachineLearning/comments/lwduy4/what_is_this_approach_called/
+20,MachineLearning,ML Salaries based on publication count [D],How much should AI/DL/ML/CV researchers expect to make in industry if they have a PhD and 1-3 publications in top conference journals at graduation?,lwdlff,1614722170,https://www.reddit.com/r/MachineLearning/comments/lwdlff/ml_salaries_based_on_publication_count_d/
+21,MachineLearning,[P] Getting Started with Distributed Machine Learning with PyTorch and Ray,"Hey All, 
+
+Just wanted to announce that Ray has been added to the PyTorch ecosystem. [Ray](https://github.com/ray-project/ray) is a popular framework for distributed Python that can be paired with PyTorch to rapidly scale machine learning applications.
+
+There’s [a blog post](https://medium.com/distributed-computing-with-ray/getting-started-with-distributed-machine-learning-with-pytorch-and-ray-27175a1b4f25) with code snippets and benchmarks if you want to learn more!",lwdk5j,1614722069,https://www.reddit.com/r/MachineLearning/comments/lwdk5j/p_getting_started_with_distributed_machine/
+22,MachineLearning,Shape extraction from image using CNN [R],"Hello all, does anyone know of a pretrained model able to extract shapes from an image? 
+AFAIK the state of the art for feature extraction in images is using CNNs, but the feature extracted are usually high level unexplainable features. For this specific project (our master thesis so we don’t have time to train our own model) we need to make sure the features only explains shapes. Or default approach is to use invariant moments, but we were discussing whether a specialized CNN might perform better. 
+Hope to hear from some of you, thanks I’m advance.",lwdaep,1614721320,https://www.reddit.com/r/MachineLearning/comments/lwdaep/shape_extraction_from_image_using_cnn_r/
+23,MachineLearning,Shape extraction using CNN,[removed],lwd8lx,1614721187,https://www.reddit.com/r/MachineLearning/comments/lwd8lx/shape_extraction_using_cnn/
+24,MachineLearning,Require guidance for dataset structuring for multivariate time series data .,,lwcogq,1614719589,https://www.reddit.com/r/MachineLearning/comments/lwcogq/require_guidance_for_dataset_structuring_for/
+25,MachineLearning,"Extracting length, width and height ameasurements from unstructured product names",[removed],lwcn0l,1614719479,https://www.reddit.com/r/MachineLearning/comments/lwcn0l/extracting_length_width_and_height_ameasurements/
+26,MachineLearning,[D] Machine Learning and Baselines? What does it mean?," Hey guys, I am currently taking a machine learning course and long story short I have tried multiple times for my professor to explain the meaning of baselines and he just confuses not only me but also my peers, I even searched google and youtube but still having a very hard time trying to understand what a Baseline is? For my project I am using k means clustering, but it mentions I have to apply a model to 2 baselines? What does this mean in laymens term please?",lwb1ll,1614715140,https://www.reddit.com/r/MachineLearning/comments/lwb1ll/d_machine_learning_and_baselines_what_does_it_mean/
+27,MachineLearning,[D] theta 1 and theta 0 -what does It all mean?,"I'm currently doing one of Andrew Yang's machine Learning courses but I'm stuck on how to plot linear regression functions, especially the theta 1 theta 0 thing. He doesn't really explain it on the course,  and I've checked on Google and I'm not the only person struggling to make sense of it , help.",lwaxl2,1614714827,https://www.reddit.com/r/MachineLearning/comments/lwaxl2/d_theta_1_and_theta_0_what_does_it_all_mean/
+28,MachineLearning,Free Machine Learning tutorials! [P],"Hello guys, I have started a blog where I will explain a new machine learning algorithm each week with two articles each week where one article is how the algorithm works and the other article would be the python implementation, Currently,  Linear Regression and Logistic Regression are available on my blog. It would be great if you could check my articles and out and suggest some feedback. Thanks!  Theory of Linear Regression : [https://ahaanpandya.medium.com/linear-regression-explained-868914443188](https://ahaanpandya.medium.com/linear-regression-explained-868914443188)  
+
+Python Implementation: [https://ahaanpandya.medium.com/linear-regression-python-implementation-18f38d71b8ff](https://ahaanpandya.medium.com/linear-regression-python-implementation-18f38d71b8ff)  
+
+Logistic Regression: [https://ahaanpandya.medium.com/classification-using-logistic-regression-bf4572023](https://ahaanpandya.medium.com/classification-using-logistic-regression-bf4572023)",lwawv7,1614714776,https://www.reddit.com/r/MachineLearning/comments/lwawv7/free_machine_learning_tutorials_p/
+29,MachineLearning,"Theta 0 , theta 1 -what does it all mean????",[removed],lwavs9,1614714693,https://www.reddit.com/r/MachineLearning/comments/lwavs9/theta_0_theta_1_what_does_it_all_mean/
+30,MachineLearning,Free Machine Learning Tutorials!,[removed],lwav3t,1614714639,https://www.reddit.com/r/MachineLearning/comments/lwav3t/free_machine_learning_tutorials/
+31,MachineLearning,[P] Contributions needed for PyTorch metrics library,Hi all I've created a metrics library for PyTorch [here](https://github.com/enochkan/torch-metrics) but will need lots of contributions to make it as user friendly as possible. Feature requests/ contributions are welcome :) Feel free to use it in your projects if you find it useful. Thanks.,lwasj9,1614714447,https://www.reddit.com/r/MachineLearning/comments/lwasj9/p_contributions_needed_for_pytorch_metrics_library/
+32,MachineLearning,Need help with PyTorch Metrics library,[removed],lwarim,1614714371,https://www.reddit.com/r/MachineLearning/comments/lwarim/need_help_with_pytorch_metrics_library/
+33,MachineLearning,Need some help for my project! I am not understanding this?,[removed],lwag2q,1614713513,https://www.reddit.com/r/MachineLearning/comments/lwag2q/need_some_help_for_my_project_i_am_not/
+34,MachineLearning,Certified Apache Spark and Scala Developer (Training),[removed],lwae27,1614713360,https://www.reddit.com/r/MachineLearning/comments/lwae27/certified_apache_spark_and_scala_developer/
+35,MachineLearning,[P] ML Learning Community for CTOs,[removed],lwa0ux,1614712374,https://www.reddit.com/r/MachineLearning/comments/lwa0ux/p_ml_learning_community_for_ctos/
+36,MachineLearning,[N] Hutter Prize Rule Update: 5'000 Byte Per Day Relaxation of Improvement Threshold,"[Marcus Hutter](https://en.wikipedia.org/wiki/Marcus_Hutter) lowers the bar for [The Hutter Prize for Lossless Compression of Human Knowledge](https://news.slashdot.org/story/20/02/22/0434243/hutter-prize-for-lossless-compression-of-human-knowledge-increased-to-500000""). 
+
+It has been a year since the Hutter Prize increased by a factor of 10 and there have been no new entries. By decreasing the compression threshold for a prize award by 5,000 bytes per day, Hutter hopes to increase the rate and fairness of prize awards, hence progress toward [artificial general intelligence](https://arxiv.org/abs/1202.6153). 
+
+From the Hutter Prize FAQ: [Why do you grant a 'discount' of 5'000 Byte per day?](http://prize.hutter1.net/hfaq.htm#ddisc)
+
+&gt; The contest went big early 2020, but so far no-one was able to beat the baseline. The discount has been introduced to ease participation and guarantee eventually at least one winner. The discount is around 1.5% per year, so should allow a first winner within a year, or at most two. The reason for the incremental discount is to prevent a quick win by whoever notices the discount first.",lwa0h4,1614712344,https://www.reddit.com/r/MachineLearning/comments/lwa0h4/n_hutter_prize_rule_update_5000_byte_per_day/
+37,MachineLearning,Hutter Prize Rule Update: 5'000 Byte Per Day Relaxation of Improvement Threshold,[removed],lw9wu1,1614712078,https://www.reddit.com/r/MachineLearning/comments/lw9wu1/hutter_prize_rule_update_5000_byte_per_day/
+38,MachineLearning,cast regression problem into classification,[removed],lw9w8c,1614712032,https://www.reddit.com/r/MachineLearning/comments/lw9w8c/cast_regression_problem_into_classification/
+39,MachineLearning,"Anybody know if stylegan2 training and you want to add additional training data, do you just run dataset_tool.py on new data and it will get appended to existing tfrecords OR do you have to build those tfrecords from scratch with old data+new data?",[removed],lw9vq1,1614711996,https://www.reddit.com/r/MachineLearning/comments/lw9vq1/anybody_know_if_stylegan2_training_and_you_want/
+40,MachineLearning,Would it be possible to repurpose AI/ML accelerators?,[removed],lw9lue,1614711309,https://www.reddit.com/r/MachineLearning/comments/lw9lue/would_it_be_possible_to_repurpose_aiml/
+41,MachineLearning,ML Learning Community for CTOs,[removed],lw9izf,1614711096,https://www.reddit.com/r/MachineLearning/comments/lw9izf/ml_learning_community_for_ctos/
+42,MachineLearning,"[D] Looking for Papers on the ""Compute Gap"" in Deep Learning research","So, in recent years deep learning has become more and more resource intense (not that it was abacus-level computational effort to begin with), which has resulted in some kind of ""compute gap"" seperating researches with the necessary Google-TPU-Clusters-Ooomph and the rest who does not.  
+
+
+Specially in Deep Learning I think this is problematic, since Google, Amazon and Co. are also privat companies and under not obligation to actually publish their research.   
+I was wondering weather there are paper discussing this topic?
+
+I am currently struggeling to find papers, despite my best efforts.   
+My motivation here is to have some good sources to point at when I get into a discussion on that topic. Do you guys happen to know some citable publications on this?",lw90k6,1614709815,https://www.reddit.com/r/MachineLearning/comments/lw90k6/d_looking_for_papers_on_the_compute_gap_in_deep/
+43,MachineLearning,[R] NLP ordering of training data with variable length?,"In NLP dataset like for Machine Translation the translation pairs are in random size. Some sentences are obviously much bigger whereas others are smaller or a few words long.  
+
+I remember reading somewhere (maybe? Can't find it anywhere!) that while training providing the dataset In an ascending order might help the model learn better. So smaller length sentences to bigger length. Is there any truth to this statement? And does it help the models in terms of results or reaching the optimal result score quicker?  
+
+I'm worried I might have halucinated this particular fact?",lw8ycf,1614709655,https://www.reddit.com/r/MachineLearning/comments/lw8ycf/r_nlp_ordering_of_training_data_with_variable/
+44,MachineLearning,Hi i'm looking for dedicated &amp; friendly english nativer who can help me to get expert me on below skills simulteniously. I can discover myself i never be skilled without partner who has same interest on! I'm also eager to learn in ML.,[removed],lw8x26,1614709565,https://www.reddit.com/r/MachineLearning/comments/lw8x26/hi_im_looking_for_dedicated_friendly_english/
+45,MachineLearning,[D] Your favourite tool for data extraction from web?,"This is an idea gathering on what is your favorite tool to extract data from the web in a general-purpose fashion.  
+Would be great to have name, how it works and why you think what you use is the best! :)",lw7ze2,1614707211,https://www.reddit.com/r/MachineLearning/comments/lw7ze2/d_your_favourite_tool_for_data_extraction_from_web/
+46,MachineLearning,[Brainstorming] Your favourite tool for data extraction from web?,[removed],lw7xxz,1614707099,https://www.reddit.com/r/MachineLearning/comments/lw7xxz/brainstorming_your_favourite_tool_for_data/
+47,MachineLearning,[D] [Video] Scaling Graph NNs to Twitter-scale (interview with Emanuele Rossi),"[https://youtu.be/ZSMEXchR3w8](https://youtu.be/ZSMEXchR3w8)
+
+This is a discussion with Emanuele Rossi, who is an ML researcher at Twitter and PhD student in Michael Bronstein's lab.  Emanuele specializes in making GNNs work for internet scale and dynamic graphs, which are topics covered in his papers: [Scalable Inception Graph Neural Networks](https://arxiv.org/abs/2004.11198) and [Temporal Graph Networks](https://arxiv.org/abs/2006.10637).  This discussion focuses on the challenges of getting GNNs to work at scale in production systems, but touches on many of the GNN fundamentals in that context.",lw7nj3,1614706400,https://www.reddit.com/r/MachineLearning/comments/lw7nj3/d_video_scaling_graph_nns_to_twitterscale/
+48,MachineLearning,[R] Conditional Normalizing Flows,[deleted],lw7c2d,1614705595,https://www.reddit.com/r/MachineLearning/comments/lw7c2d/r_conditional_normalizing_flows/
+49,MachineLearning,Tensorflow 2 + Keras - Loading Saved Model Giving Different Results,,lw6rf0,1614704264,https://www.reddit.com/r/MachineLearning/comments/lw6rf0/tensorflow_2_keras_loading_saved_model_giving/
+50,MachineLearning,[D] NLP Q: How to extract this part from a messy short text?,"I have these short texts as product descriptions:
+
+    #1 FIG PASTE HS CODE: 0804 2 0 90 0011 1190 CA RTONS ON 17 PALLETS NET WEIGHT: 1 7.811,92 K GS
+    #2 C O N F E C T I O N A R Y MRN 19DE800118118427E3 RETAIL CANDY HS-CODE 17049075 18069019 CONTAINER SET AT SHIPPERS REQUEST CARRIAGE TEMPERA- TURE OF 13 DEGREES CELSIUS (55,0F),TEMPERATURE TO BE MAINTAINED DURING WHOLE SEA TRANSIT
+    #3 MALT HS CODE 11071019 11071099 . .
+    #4 DRIED MUSHROOM DRIED BLACK FUNGUS DRIED HONEY PRESERVED
+
+My goal is to extract what we call an HS-Code which ranges from 2 digits to 6 to 8 digits. 
+
+For example, for #1, it is easy to get it via REGEX. The code would be `08042090.`   
+As for #2, it should be both `17049075` and `18069019.`
+
+While it seems to be so easy with regex, an example like the following makes it a bit more complex.
+
+**No ""HS CODE"" in the description:** `700800` and `761010`
+
+    4 PCS GLASS AND FRAMES HS-CODE 7008.00 7610.10 (1PC DIMS 338X100X223CM) (1PC DIMS 307X100X208CM) 
+
+**Spaces and special chars in between in between** `1905`
+
+    EUROPEAN COOKIES - WITH EXQUISITE CHOCOLATE 40 US CHEP-PALLETS X 200 BOXES = 8000 BOXES HS-CODE19 0 5 MILLER-REF 69069 TEMPERATURE CONTROLLED AT 16.C DURING THE WHOLE TRANSPORT
+    
+    MALT HS CODE11.07.10.99
+
+**Abundance of numbers that are not HSCode (no HS code here)**
+
+    EUROPEAN COOKIES - WITH EXQUISITE CHOCOLATE 40 US CHEP-PALLETS X 200 BOXES=8000BOXESRECEIPT00190531 0102.1001PCS MILLER-REF 69069 TEMPERATURE CONTROLLED AT 16.C DURING THE WHOLE TRANSPORT
+
+My questions would be:
+
+1. Are there other solutions that are better than using **regex?**
+2. Are sequence based solutions (such as CRF) applicable to this or is the data being messy prevents this from being useful?
+3. With regards to #2, is there such a thing as character-based extraction?",lw6bt6,1614703221,https://www.reddit.com/r/MachineLearning/comments/lw6bt6/d_nlp_q_how_to_extract_this_part_from_a_messy/
+51,MachineLearning,[P] Looking for people interested in ML/AI to help develop a model that dynamically predicts gas prices,"Hi all,
+
+I've come up with an idea to create a website (and eventually an app) powered by an ML model that dynamically predicts gas prices in the US . Adding different countries may be a future feature, as will developing an app. At that point, I would opt for paying those involved.
+
+Currently, I am looking for some people to help get this project going. If you are interested, please fill out [this form](https://forms.gle/dNBn4Q72K9GcQrau6). I am primarily looking for those of you interested in working in AI or machine learning, but I will consider everyone and respond to every application in a brief amount of time. Eventually, I will need web designers so if you are in the realm of cloud or web please apply!",lw4xor,1614699889,https://www.reddit.com/r/MachineLearning/comments/lw4xor/p_looking_for_people_interested_in_mlai_to_help/
+52,MachineLearning,"Need help, am noob",[removed],lw4k0m,1614698898,https://www.reddit.com/r/MachineLearning/comments/lw4k0m/need_help_am_noob/
+53,MachineLearning,"[P] Talk with AI! (Easy to use, DialoGPT)","&amp;#x200B;
+
+https://preview.redd.it/k63pvt0a65k61.png?width=1477&amp;format=png&amp;auto=webp&amp;s=25ace6dae1e9730c6a22a23e1c9f6e94cceed8be
+
+&amp;#x200B;
+
+Hello. I'm bored with nothing to do on the weekend, so I developed a package that makes it easy to access the DialoGPT-based open domain chatbot. ('pip install dialog-chat'.)
+
+&amp;#x200B;
+
+As shown in the picture, three lines of code allow you to communicate with artificial intelligence and provide various options changes and automatic history management. If you want to talk to artificial intelligence, install it and use it! More information can be found here at [https://github.com/hyunwoongko/dialogpt-chat](https://github.com/hyunwoongko/dialogpt-chat)",lu56dq,1614484672,https://www.reddit.com/r/MachineLearning/comments/lu56dq/p_talk_with_ai_easy_to_use_dialogpt/
+54,MachineLearning,[D]How is GRU outputting the following Values? I am getting a different answer&lt;Keras&gt;,[removed],lu47gq,1614482521,https://www.reddit.com/r/MachineLearning/comments/lu47gq/dhow_is_gru_outputting_the_following_values_i_am/
+55,MachineLearning,How is GRU outputting the following Values? I am getting a different answer&lt;Keras&gt;,,lu4547,1614482370,https://www.reddit.com/r/MachineLearning/comments/lu4547/how_is_gru_outputting_the_following_values_i_am/
+56,MachineLearning,Best Language to start machine learning? Python or R,"[removed]
+
+[View Poll](https://www.reddit.com/poll/lu3ic1)",lu3ic1,1614480263,https://www.reddit.com/r/MachineLearning/comments/lu3ic1/best_language_to_start_machine_learning_python_or/
+57,MachineLearning,Best Language for machine learning to start with,"[removed]
+
+[View Poll](https://www.reddit.com/poll/lu3gqf)",lu3gqf,1614480113,https://www.reddit.com/r/MachineLearning/comments/lu3gqf/best_language_for_machine_learning_to_start_with/
+58,MachineLearning,[D] Stories from your AP AI class,[removed],lu3a5h,1614479447,https://www.reddit.com/r/MachineLearning/comments/lu3a5h/d_stories_from_your_ap_ai_class/
+59,MachineLearning,Machine learning model [D],[removed],lu1qpc,1614474200,https://www.reddit.com/r/MachineLearning/comments/lu1qpc/machine_learning_model_d/
+60,MachineLearning,Machine learning model,[removed],lu1plm,1614474099,https://www.reddit.com/r/MachineLearning/comments/lu1plm/machine_learning_model/
+61,MachineLearning,Please fill out this anonymous survey to help us build an open source ML Dataset,[removed],lu1lmg,1614473731,https://www.reddit.com/r/MachineLearning/comments/lu1lmg/please_fill_out_this_anonymous_survey_to_help_us/
+62,MachineLearning,[R] Investigating the Limitations of the Transformers with Simple Arithmetic Tasks,,lu1l6g,1614473687,https://www.reddit.com/r/MachineLearning/comments/lu1l6g/r_investigating_the_limitations_of_the/
+63,MachineLearning,Any working German gpt-2 google collab notebook?,[removed],lu1ech,1614473047,https://www.reddit.com/r/MachineLearning/comments/lu1ech/any_working_german_gpt2_google_collab_notebook/
+64,MachineLearning,[Project]GPT-2 reading comprehension test[Project],[removed],lu1cpw,1614472899,https://www.reddit.com/r/MachineLearning/comments/lu1cpw/projectgpt2_reading_comprehension_testproject/
+65,MachineLearning,[D] How to maintain/preserve the active learning between different model version/updates ??,"Let's take an example, I have a master model Mv1 and I deployed it for so my users can use this pretrained model directly on their systems. Now I also have an active learning mechanism by which every users models gets improved based on their inputs and gives then personalised experience, let's says after a few active learning steps the model is now Mv1.4 . Now I release a new update to the master model say Mv2 which is more efficient, Now I want my users to use this new master version.
+
+So how can I have them use this new version Mv2 plus I also don't want them to loose all those active learning that the model Mv1 learned to become Mv1.4 . 
+
+How can I merge or like preserve the active learning.
+Like I want a new model like Mv2.4 which would be a addition of Mv1.4 and Mv2. 
+
+I would love to hear about your thoughts on this.
+
+If you don't get the question, I will try to make it more simple.
+
+
+For a real life example, Google uses many models to provide us their service and these models in turn learns from our interactions and gives us user specific results , so in time when Google wants to release a new update to the models, how does it keeps those user specific learning in the new update.",ltyvpj,1614464816,https://www.reddit.com/r/MachineLearning/comments/ltyvpj/d_how_to_maintainpreserve_the_active_learning/
+66,MachineLearning,How to maintain/preserve the active learning between different model version/updates??,[removed],ltyubk,1614464684,https://www.reddit.com/r/MachineLearning/comments/ltyubk/how_to_maintainpreserve_the_active_learning/
+67,MachineLearning,[D]Is encoding and classification the same thing?,,ltw8vz,1614456627,https://www.reddit.com/r/MachineLearning/comments/ltw8vz/dis_encoding_and_classification_the_same_thing/
+68,MachineLearning,[P] Node-efficientnet – image recognition model written in Node.js and TypeScript,,ltvi5t,1614454425,https://www.reddit.com/r/MachineLearning/comments/ltvi5t/p_nodeefficientnet_image_recognition_model/
+69,MachineLearning,Sustainable AI and the New Data Pipeline,,ltvael,1614453736,https://www.reddit.com/r/MachineLearning/comments/ltvael/sustainable_ai_and_the_new_data_pipeline/
+70,MachineLearning,Which OS you prefere to developpe apps,"[removed]
+
+[View Poll](https://www.reddit.com/poll/lttms5)",lttms5,1614448946,https://www.reddit.com/r/MachineLearning/comments/lttms5/which_os_you_prefere_to_developpe_apps/
+71,MachineLearning,[P] I just released the 200th episode of my ML YouTube series,[removed],lttdas,1614448233,https://www.reddit.com/r/MachineLearning/comments/lttdas/p_i_just_released_the_200th_episode_of_my_ml/
+72,MachineLearning,[D]Do you need to have a lot of knowledge in Physics to work in the field of AI?,[removed],ltszfe,1614447157,https://www.reddit.com/r/MachineLearning/comments/ltszfe/ddo_you_need_to_have_a_lot_of_knowledge_in/
+73,MachineLearning,Do you need to have a lot of knowledge in physics to work in the field of AI?,[removed],ltsx33,1614446977,https://www.reddit.com/r/MachineLearning/comments/ltsx33/do_you_need_to_have_a_lot_of_knowledge_in_physics/
+74,MachineLearning,"[D] Paper Explained - GLOM: How to represent part-whole hierarchies in a neural network (by Geoff Hinton, Full Video Analysis)","[https://youtu.be/cllFzkvrYmE](https://youtu.be/cllFzkvrYmE)
+
+Geoffrey Hinton describes GLOM, a Computer Vision model that combines transformers, neural fields, contrastive learning, capsule networks, denoising autoencoders and RNNs. GLOM decomposes an image into a parse tree of objects and their parts. However, unlike previous systems, the parse tree is constructed dynamically and differently for each input, without changing the underlying neural network. This is done by a multi-step consensus algorithm that runs over different levels of abstraction at each location of an image simultaneously. GLOM is just an idea for now but suggests a radically new approach to AI visual scene understanding.
+
+&amp;#x200B;
+
+OUTLINE:
+
+0:00 - Intro &amp; Overview
+
+3:10 - Object Recognition as Parse Trees
+
+5:40 - Capsule Networks
+
+8:00 - GLOM Architecture Overview
+
+13:10 - Top-Down and Bottom-Up communication
+
+18:30 - Emergence of Islands
+
+22:00 - Cross-Column Attention Mechanism
+
+27:10 - My Improvements for the Attention Mechanism
+
+35:25 - Some Design Decisions
+
+43:25 - Training GLOM as a Denoising Autoencoder &amp; Contrastive Learning
+
+52:20 - Coordinate Transformations &amp; Representing Uncertainty
+
+57:05 - How GLOM handles Video
+
+1:01:10 - Conclusion &amp; Comments
+
+&amp;#x200B;
+
+Paper: [https://arxiv.org/abs/2102.12627](https://arxiv.org/abs/2102.12627)",ltro4y,1614443487,https://www.reddit.com/r/MachineLearning/comments/ltro4y/d_paper_explained_glom_how_to_represent_partwhole/
+75,MachineLearning,[D] Guide me to start my journey into ML,[removed],ltrnym,1614443474,https://www.reddit.com/r/MachineLearning/comments/ltrnym/d_guide_me_to_start_my_journey_into_ml/
+76,MachineLearning,Guide me to start my journey of learning ML,,ltreys,1614442660,https://www.reddit.com/r/MachineLearning/comments/ltreys/guide_me_to_start_my_journey_of_learning_ml/
+77,MachineLearning,Guide me through,,ltr80p,1614442086,https://www.reddit.com/r/MachineLearning/comments/ltr80p/guide_me_through/
+78,MachineLearning,[D] How to run XGBoost on embeddings?,[removed],ltr6qe,1614441981,https://www.reddit.com/r/MachineLearning/comments/ltr6qe/d_how_to_run_xgboost_on_embeddings/
+79,MachineLearning,XGBoost on embeddings?,[removed],ltr5n2,1614441899,https://www.reddit.com/r/MachineLearning/comments/ltr5n2/xgboost_on_embeddings/
+80,MachineLearning,Recently I noticed so many misspelled/wrongly translated words in subtitles of kid’s rhymes on YouTube.. I guess these videos use ML for translation Audio to texts and some of the translations are awful.. did anybody notice these errors?,[removed],ltqx80,1614441230,https://www.reddit.com/r/MachineLearning/comments/ltqx80/recently_i_noticed_so_many_misspelledwrongly/
+81,MachineLearning,[D] Paper Reading Group #011 - Causal effect inference with deep latent-variable models.,,ltptu0,1614437980,https://www.reddit.com/r/MachineLearning/comments/ltptu0/d_paper_reading_group_011_causal_effect_inference/
+82,MachineLearning,Paper Reading Group #011 - Causal effect inference with deep latent-variable models.,[deleted],ltpse6,1614437858,https://www.reddit.com/r/MachineLearning/comments/ltpse6/paper_reading_group_011_causal_effect_inference/
+83,MachineLearning,Using sci-kit learn to work out multiple independant targets,[removed],ltpnho,1614437428,https://www.reddit.com/r/MachineLearning/comments/ltpnho/using_scikit_learn_to_work_out_multiple/
+84,MachineLearning,[P] Embedding in PyTorch dissected,"Hi all! 
+
+I created a video where I talk about the \`torch.nn.Embedding\` module. I  explain some of its functionalities like the padding index and maximum norm. In the second part of this video, I use it to represent characters in the English alphabet and build a text generating model.   
+
+
+[https://youtu.be/euwN5DHfLEo](https://youtu.be/euwN5DHfLEo)
+
+  
+Let me know if you have any feedback:)   
+
+
+Just as a side note: If you feel like this post is too ""beginner"" I would more than appreciate your input on how to make my videos better suited for ML practitioners and researchers.",ltp7tx,1614436058,https://www.reddit.com/r/MachineLearning/comments/ltp7tx/p_embedding_in_pytorch_dissected/
+85,MachineLearning,AIs from AI Dungeon 2 to sexy to funny and one based wholly on Reddit!,[removed],ltp5l5,1614435857,https://www.reddit.com/r/MachineLearning/comments/ltp5l5/ais_from_ai_dungeon_2_to_sexy_to_funny_and_one/
+86,MachineLearning,"[D] A Curated List of 100+ Free Machine Learning Courses by DeepMind, FastAI, Kaggle, Stanford and other Biggies",[deleted],ltovvb,1614434995,https://www.reddit.com/r/MachineLearning/comments/ltovvb/d_a_curated_list_of_100_free_machine_learning/
+87,MachineLearning,"[D] How and Where Giants like Quora, Uber, Twitter, Apple, eBay, Google, etc uses Deep Learning, Machine Learning, Algorithms and Neural Network to solve various problems?",[deleted],ltnp1r,1614430999,https://www.reddit.com/r/MachineLearning/comments/ltnp1r/d_how_and_where_giants_like_quora_uber_twitter/
+88,MachineLearning,[D] Germany vs Canada for MS in Machine Learning,[removed],ltnlvl,1614430719,https://www.reddit.com/r/MachineLearning/comments/ltnlvl/d_germany_vs_canada_for_ms_in_machine_learning/
+89,MachineLearning,Germany vs Canada for MS in Machine Learning,,ltnkpg,1614430596,https://www.reddit.com/r/MachineLearning/comments/ltnkpg/germany_vs_canada_for_ms_in_machine_learning/
+90,MachineLearning,[D] The importance of the institution you study at. The story of a PhD student.,"I saw quite a few posts lately regarding the issues faced by PhD students or prospective students, so I wanted to add my rant on this too... Of course, this is just anecdotal evidence and not all experiences are alike. Yet, I feel that the situation may be endemic and representative from what I saw.
+
+I got my PhD a few months ago from an average European university. During my PhD I've spent countless hours trying to get things done, mostly alone, with little or no holidays. In a way, the conferences were the only big major escape and chance to travel and clear my mind sort of. I feel for my peers that perhaps during the past year were unable to do so. Of course, without having the budget of the big institution the only way for this to happen was to have a publication, and even then, often I had to take 16 hours flights with 2-3 changes instead of a direct 3-4 hours one due to budget constraints.
+
+4 years later I got my PhD and managed to publish around 10 papers in top venues (CVPR, ICLR and the likes), most of them 2 authored (me and my supervisor), reflecting again the relative collaborative isolation that I feel happens in smaller universities.
+
+So back to the original topic, dId I felt that having the right network or being outside of the elite circle of universities matters? Of course! A few major points:
+
+* Resources were always an issue. You need more GPUs? Not going to happen. What is worse while some of my peers with similar research work, both in terms of topic and research output got various grants from nVidia or Amazon, I never even got a reply after filling their form.
+* Opportunities. 0 talk invitation (besides the presentations gave at conferences due to the publications), super-hard to get a research-focused internship. This while people from Oxbridge, CMU, and the likes gave countless presentations even before having their first paper accepted. I am sure many of them, or perhaps all were great researchers, however not having the same opportunities do leave a sour taste.
+* Visibility. Following on the above, it is pretty much impossible to compete on this with the big guys. Let’s be honest, many people judge the work or make the decision of reading a paper based on the institution of the authors or wherever one co-author is famous. There are so many papers nowadays, so perhaps this is a reasonable thing, yet one that is affecting researchers from less known universities/companies disproportionately.
+* Job prospect. The more I apply, the more disappointed I get. I tried applying where everyone else wants to apply Google, Microsoft, Facebook, Amazon, etc. I never even got a reply after applying via their forms beyond the automatic ones. Sure, it’s very competitive, but not even getting a reply? This is despite LinkedIn claiming that I am in the ""top 10% of applicants"" and me checking that their existing team has similar CVs with mine. I am starting to think that landing a job, or an interview at least with them requires an internal recommendation, that you can't get without a network, or having a star university/professor somewhere in your CV. In the latter case, you could likely get the first too anyway. It’s really hard to get the network when none at your university that you know of works at a top company and you are also not a social person generally. Again I don't imply that they should run giving me a job, but I strongly believe my research output can warrant at least a reply back or interview, even if the answer is kind of no.
+
+There are definitely more to this that can be piled up, but the main takeaway from my experience is that being a student outside of a select set of prestigious institutions has a set of harsh and real negative offsets that include the full spectrum, from resources to opportunities offered and job prospects.
+
+Where to next? Unclear yet, I do like the work that I've done but I feel that all this effort didn't account for much in my prospective carrier and it feels very hard to break out of this loop. Crashed dreams are perhaps the hardest thing to overcome.",ltnk6h,1614430542,https://www.reddit.com/r/MachineLearning/comments/ltnk6h/d_the_importance_of_the_institution_you_study_at/
+91,MachineLearning,The importance of the institution you study at. The story of a PhD student.,,ltnalq,1614429530,https://www.reddit.com/r/MachineLearning/comments/ltnalq/the_importance_of_the_institution_you_study_at/
+92,MachineLearning,AIs from AI Dungeon 2 to sexy to funny and one based wholly on Reddit!,[removed],ltmuv7,1614427869,https://www.reddit.com/r/MachineLearning/comments/ltmuv7/ais_from_ai_dungeon_2_to_sexy_to_funny_and_one/
+93,MachineLearning,[D] Seeking suggestions on running multiple Keras models in parallel for prediction.,[removed],ltmq0p,1614427352,https://www.reddit.com/r/MachineLearning/comments/ltmq0p/d_seeking_suggestions_on_running_multiple_keras/
+94,MachineLearning,[Discussion] YouTube interview with Neural DSP researcher on using machine learning for guitar amp emulation.,,ltmpro,1614427325,https://www.reddit.com/r/MachineLearning/comments/ltmpro/discussion_youtube_interview_with_neural_dsp/
+95,MachineLearning,[D] Why Tensorflow is trying to get people to use Keras?,[removed],ltlzri,1614424388,https://www.reddit.com/r/MachineLearning/comments/ltlzri/d_why_tensorflow_is_trying_to_get_people_to_use/
+96,MachineLearning,Why is Tensorflow pushing people to use Keras?,[removed],ltlzgb,1614424350,https://www.reddit.com/r/MachineLearning/comments/ltlzgb/why_is_tensorflow_pushing_people_to_use_keras/
+97,MachineLearning,AIs from AI Dungeon 2 to sexy to funny and one based wholly on Reddit!,[removed],ltlvf5,1614423896,https://www.reddit.com/r/MachineLearning/comments/ltlvf5/ais_from_ai_dungeon_2_to_sexy_to_funny_and_one/
+98,MachineLearning,How to extract features form a dataset that contains only text (not numerical )data,[removed],ltkrvl,1614419274,https://www.reddit.com/r/MachineLearning/comments/ltkrvl/how_to_extract_features_form_a_dataset_that/
+99,MachineLearning,[R] Teaching cars to see at scale - Dr. Holger Caesar (Author of nuScenes and COCO-Stuff datasets) - Link to zoom lecture by the author in comments,,ltjyr5,1614415561,https://www.reddit.com/r/MachineLearning/comments/ltjyr5/r_teaching_cars_to_see_at_scale_dr_holger_caesar/

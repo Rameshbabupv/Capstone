@@ -1,0 +1,18 @@
+Env:
+conda create -n capstone python=3
+conda activate capstone
+conda install jira
+conda install jupyter
+conda install -c conda-forge jupyterlab
+conda install keras
+conda install pandas
+conda install scikit-learn
+conda install matplotlib
+conda install -c conda-forge pickle5
+conda install seaborn
+conda install pydot
+conda install -c conda-forge jupyterlab
+
+jupyter lab --no-browser --port=8889
+# ssh -N -f -L localhost:8887:localhost:8889 babu@192.168.2.209
+# localhost:8887
